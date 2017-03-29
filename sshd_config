@@ -11,7 +11,7 @@ UseDNS no
 # Limited access
 PermitRootLogin no
 X11Forwarding no
-AllowTcpForwarding no
+AllowTcpForwarding yes
 
 # Force sftp and chroot jail
 Subsystem sftp internal-sftp
